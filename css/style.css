@@ -54,12 +54,13 @@ main > section> h3{
     padding-bottom: 15px;
     justify-content: center;
 }
-.player-list .col p{
+.player-list .col h5{
+    padding-top: 5px;
     font-size: 20px;
     font-weight: 600;
-    position: relative;
+    /* position: relative;
     top: 13px;
-    left: 20px;
+    left: 20px; */
 }
 
 /* top blog */
