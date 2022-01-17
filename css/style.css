@@ -34,7 +34,6 @@ main{
 
 main> section{
     padding: 36px;
-    text-align: center;
 }
 main > section> h3{
     padding-bottom: 11px;
@@ -52,15 +51,12 @@ main > section> h3{
 .col{
     padding-top: 15px;
     padding-bottom: 15px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .player-list .col h5{
     padding-top: 5px;
     font-size: 20px;
     font-weight: 600;
-    /* position: relative;
-    top: 13px;
-    left: 20px; */
 }
 
 /* top blog */
@@ -69,4 +65,20 @@ main > section> h3{
 }
 .top-blog .text-primary{
     padding-bottom: 20px;
+}
+
+.col .btn{
+    text-align: left;
+}
+
+
+/* media */
+@media (max-width: 992px) {
+    .top-blog .col{
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
 }
