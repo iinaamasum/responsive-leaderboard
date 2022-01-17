@@ -1,0 +1,71 @@
+/* common */
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+}
+/* width 80% */
+.w-80{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* navbar */
+nav ul> div> li{
+    padding-right: 36px;
+}
+
+nav ul a:hover{
+    border-radius: 3px;
+    color: black!important;
+    transform: scale(1.5);
+    transition: transform .1s ease-in-out;
+    font-weight: 5.00;
+}
+
+/* main */
+
+main{
+    margin-top: 36px;
+    margin-bottom: 21px;
+}
+
+main> section{
+    padding: 36px;
+    text-align: center;
+}
+main > section> h3{
+    padding-bottom: 11px;
+}
+
+/* top player */
+.player-list{
+    padding-top: 29px;
+}
+
+.player-list .row{
+    padding-left: 0%;
+    color: royalblue;
+}
+.col{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+}
+.player-list .col p{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 13px;
+    left: 20px;
+}
+
+/* top blog */
+.top-blog{
+    margin: 30px;
+}
+.top-blog .text-primary{
+    padding-bottom: 20px;
+}
