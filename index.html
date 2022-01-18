@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Learder Board</title>
+    <link rel="icon" type="image/x-icon" href="./images/icons/logo.png">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -25,21 +26,21 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- d-flex by ms and text-center for hamburger -->
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <!-- d-flex by ms and mx-auto text-center for hamburger  center-text-->
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <div class="pt-2 navbar-nav ms-auto pe-2 mb-2 mb-lg-0">
-                            <li class="nav-item pe-4">
+                        <div class="pt-2 navbar-nav text-center mx-auto pe-2 mb-2 mb-lg-0">
+                            <li class="nav-item lg-pe-4">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="nav-item pe-4">
+                            <li class="nav-item lg-pe-4">
                                 <a class="nav-link" href="#">Link</a>
                             </li>
-                            <li class="nav-item pe-4">
+                            <li class="nav-item lg-pe-4">
                                 <a class="nav-link" href="#">Works</a>
                             </li>
                         </div>
-                        <li class="nav-item">
+                        <li class="nav-item mx-auto">
                             <img src="./images/icons/profile.png" width="51" , height="51"
                                 class="d-inline-block align-top" alt="">
                         </li>
@@ -111,8 +112,8 @@
                                     <p>By <span>Author</span></p>
                                 </div>
                             </div>
-                            <button class="btn btn-primary">Buy Now</button>
-                            <button class="btn btn-success">Add to Cart</button>
+                            <button class="btn btn-primary mb-2 mb-2">Buy Now</button>
+                            <button class="btn btn-success mb-2">Add to Cart</button>
                         </div>
                         <div class="col">
                             <div class="py-2 d-flex">
@@ -122,8 +123,8 @@
                                     <p>By <span>Author</span></p>
                                 </div>
                             </div>
-                            <button class="btn btn-primary">Buy Now</button>
-                            <button class="btn btn-success">Add to Cart</button>
+                            <button class="btn btn-primary mb-2">Buy Now</button>
+                            <button class="btn btn-success mb-2">Add to Cart</button>
                         </div>
                         <div class="col">
                             <div class="py-2 d-flex">
@@ -133,8 +134,8 @@
                                     <p>By <span>Author</span></p>
                                 </div>
                             </div>
-                            <button class="btn btn-primary">Buy Now</button>
-                            <button class="btn btn-success">Add to Cart</button>
+                            <button class="btn btn-primary mb-2">Buy Now</button>
+                            <button class="btn btn-success mb-2">Add to Cart</button>
                         </div>
                         <div class="col">
                             <div class="py-2 d-flex">
@@ -144,8 +145,8 @@
                                     <p>By <span>Author</span></p>
                                 </div>
                             </div>
-                            <button class="btn btn-primary">Buy Now</button>
-                            <button class="btn btn-success">Add to Cart</button>
+                            <button class="btn btn-primary mb-2">Buy Now</button>
+                            <button class="btn btn-success mb-2">Add to Cart</button>
                         </div>
                         <div class="col">
                             <div class="py-2 d-flex">
@@ -155,8 +156,8 @@
                                     <p>By <span>Author</span></p>
                                 </div>
                             </div>
-                            <button class="btn btn-primary">Buy Now</button>
-                            <button class="btn btn-success">Add to Cart</button>
+                            <button class="btn btn-primary mb-2">Buy Now</button>
+                            <button class="btn btn-success mb-2">Add to Cart</button>
                         </div>
                         <div class="col">
                             <div class="py-2 d-flex">
@@ -166,8 +167,8 @@
                                     <p>By <span>Author</span></p>
                                 </div>
                             </div>
-                            <button class="btn btn-primary">Buy Now</button>
-                            <button class="btn btn-success">Add to Cart</button>
+                            <button class="btn btn-primary mb-2">Buy Now</button>
+                            <button class="btn btn-success mb-2">Add to Cart</button>
                         </div>
                     </div>
                 </div>
@@ -180,9 +181,6 @@
     <section class="w-75 mx-auto">
         <h1 class="text-primary text-center pb-4">Contact</h1>
         <div class="contact d-flex">
-            <!-- <div class="d-flex">
-                <img width="300px" src="./images/courses/course-1.png" alt="">
-            </div> -->
             <div class="community shadow p-3 mb-5 bg-body rounded w-50 pe-3 me-3 py-4">
                 <h3 class="text-success fw-bold">Connect to the <span style="color: orangered;">Community</span></h3>
                 <p class="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestiae pariatur
@@ -210,41 +208,35 @@
     </section>
 
     <footer class="text-center text-white" style="background-color: #f1f1f1;">
-        <!-- Grid container -->
         <div class="container pt-4">
-            <!-- Section: Social media -->
             <section class="mb-4">
-                <!-- Facebook -->
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                     data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
 
-                <!-- Twitter -->
+
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                     data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
 
-                <!-- Google -->
+
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                     data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
 
-                <!-- Instagram -->
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                     data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
 
-                <!-- Linkedin -->
+
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                     data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
-                <!-- Github -->
+
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                     data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
             </section>
-            <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
 
-        <!-- Copyright -->
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2020 Copyright:
-            <a class="text-dark text-decoration-none" href="https://www.linkedin.com/in/iinaamasum/"><span class="text-danger fw-bold">iinaamasum</span></a>
+        </div>
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.483);">
+            © 2022 Copyright:
+            <a class="text-dark text-decoration-none" href="https://www.linkedin.com/in/iinaamasum/"><span
+                    class="text-white fw-bold">iinaamasum</span></a>
         </div>
         <!-- Copyright -->
     </footer>

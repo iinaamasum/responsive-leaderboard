@@ -28,4 +28,25 @@ p{
         margin-right: 0%!important;
         width: 100%!important;
     }
+
+    .top-blog{
+        justify-content: center;
+        text-align: center;
+    }
+    .top-blog .d-flex .text-des p{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-blog .d-flex{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+    .top-blog img{
+        height: auto;
+    }
 }
